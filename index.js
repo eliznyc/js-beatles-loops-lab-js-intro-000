@@ -4,8 +4,8 @@ const instruments = ('guitar', 'guitar', 'bass', 'drums');
 
 function theBeatlesPlay(musicians, instruments) {
   var band = [];
-  for (let i = 0; i < 4; i++) {band.push(musicians[i] + ` plays ` + instruments[i]) }
-    return band;
+  for (let i = 0; i < 4; i++) {band.push(musicians[i] + ` plays ` + instruments[i]) };
+  return band;
 }
 
 const facts = [
@@ -16,8 +16,13 @@ const facts = [
 ];
 
 function johnLennonFacts(facts) {
-  var bigfacts = []
-  let i = 0
-  while (i < facts.length) {bigfacts.push(facts[i++] + `!!!`)}
-  return bigfacts
+  var bigfacts = [];
+  let i = 0;
+  while (i < facts.length) {bigfacts.push(facts[i++] + `!!!`)};
+  return bigfacts;
+}
+
+funtion iLoveTheBeatles(n) {
+  var love = [];
+
 }
